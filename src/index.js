@@ -1,9 +1,9 @@
-import fruits from './foods';
+import foods from './foods';
 import { choice, remove } from './helpers';
 
-let fruit = choice(fruits);
+let fruit = choice(foods);
 console.log(`I'd like one ${fruit}, please.`);
 console.log(`Here you go: ${fruit}`);
-remove(fruits, fruit);
+remove(foods, fruit);
 console.log(`Delicious! May I have another?`);
-console.log(`I'm sorry, we're all out. We have ${fruits.length} fruits left.`);
+console.log(`I'm sorry, we're all out. We have ${foods.length} fruits left.`);
