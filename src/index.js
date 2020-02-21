@@ -1,5 +1,5 @@
-import { choice, remove } from './helpers';
 import fruits from './foods';
+import { choice, remove } from './helpers';
 
 let fruit = choice(fruits);
 console.log(`I'd like one ${fruit}, please.`);
